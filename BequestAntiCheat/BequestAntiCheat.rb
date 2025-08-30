@@ -1,7 +1,3 @@
-# frozen_string_literal: true
-
-require_relative "BequestAntiCheat/version"
-
 module BequestAntiCheat
   class Error < StandardError; end
   
@@ -487,6 +483,405 @@ module BequestAntiCheat
       
       @buisaut_total_metric = "#{buisaut_metric_1} #{buisaut_metric_2} #{buisaut_metric_3}"
     end
+
+    def self.entreintiwadano_metric
+      a = "cochon au homard"
+      b = "robusuta buta"
+      d = "ursinehomme"
+      e = "ursinefemme"
+      f = "ursinepiros"
+      g = "kumabatto"
+      h = "quantumcrufied"
+      
+    
+      possible_players = [
+        [[a, a], [a, b], [a, c], [a, d], [a, e], [a, f], [a, g], [a, h]],
+        [[b, a], [b, b], [b, c], [b, d], [b, e], [b, f], [b, g], [b, h]],
+        [[c, a], [c, b], [c, c], [c, d], [c, e], [c, f], [c, g], [c, h]],
+        [[d, a], [d, b], [d, c], [d, d], [d, e], [d, f], [d, g], [d, h]],
+        [[e, a], [e, b], [e, c], [e, d], [e, e], [e, f], [e, g], [e, h]],
+        [[f, a], [f, b], [f, c], [f, d], [f, e], [f, f], [f, g], [f, h]],
+        [[g, a], [g, b], [g, c], [g, d], [g, e], [g, f], [g, g], [g, h]],
+      ]
+    
+      row_options = [0, 1, 2, 3, 4, 5, 6]
+      col_options = [0, 1, 2, 3, 4, 5, 6]
+      arr_options = [0, 1]
+      
+      cur_row = row_options.sample
+      cur_col = col_options.sample
+      cur_arr = arr_options.sample
+      
+      player_type1 = possible_players[cur_row][cur_col][cur_arr]
+      
+      row_options = [0, 1, 2, 3, 4, 5, 6]
+      col_options = [0, 1, 2, 3, 4, 5, 6]
+      arr_options = [0, 1]
+      
+      cur_row = row_options.sample
+      cur_col = col_options.sample
+      cur_arr = arr_options.sample
+      
+      player_type2 = possible_players[cur_row][cur_col][cur_arr]
+      
+      row_options = [0, 1, 2, 3, 4, 5, 6]
+      col_options = [0, 1, 2, 3, 4, 5, 6]
+      arr_options = [0, 1]
+      
+      cur_row = row_options.sample
+      cur_col = col_options.sample
+      cur_arr = arr_options.sample
+      
+      player_type3 = possible_players[cur_row][cur_col][cur_arr]
+      
+      entreintiwadano_metric_1 = BequestAntiCheat::CheatDetection.cette("#{player_type1}", "entreintiwadano")
+      entreintiwadano_metric_2 = BequestAntiCheat::CheatDetection.maisette("#{player_type2}", "entreintiwadano")
+      entreintiwadano_metric_3 = BequestAntiCheat::CheatDetection.sinon("#{player_type3}", "entreintiwadano")
+      
+      @buisaut_total_metric = "#{entreintiwadano_metric_1} #{entreintiwadano_metric_2} #{entreintiwadano_metric_3}"
+    end
+
+    def self.busokaijoplege_metric
+      a = "cochon au homard"
+      b = "robusuta buta"
+      d = "ursinehomme"
+      e = "ursinefemme"
+      f = "ursinepiros"
+      g = "kumabatto"
+      h = "quantumcrufied"
+      
+    
+      possible_players = [
+        [[a, a], [a, b], [a, c], [a, d], [a, e], [a, f], [a, g], [a, h]],
+        [[b, a], [b, b], [b, c], [b, d], [b, e], [b, f], [b, g], [b, h]],
+        [[c, a], [c, b], [c, c], [c, d], [c, e], [c, f], [c, g], [c, h]],
+        [[d, a], [d, b], [d, c], [d, d], [d, e], [d, f], [d, g], [d, h]],
+        [[e, a], [e, b], [e, c], [e, d], [e, e], [e, f], [e, g], [e, h]],
+        [[f, a], [f, b], [f, c], [f, d], [f, e], [f, f], [f, g], [f, h]],
+        [[g, a], [g, b], [g, c], [g, d], [g, e], [g, f], [g, g], [g, h]],
+      ]
+    
+      row_options = [0, 1, 2, 3, 4, 5, 6]
+      col_options = [0, 1, 2, 3, 4, 5, 6]
+      arr_options = [0, 1]
+      
+      cur_row = row_options.sample
+      cur_col = col_options.sample
+      cur_arr = arr_options.sample
+      
+      player_type1 = possible_players[cur_row][cur_col][cur_arr]
+      
+      row_options = [0, 1, 2, 3, 4, 5, 6]
+      col_options = [0, 1, 2, 3, 4, 5, 6]
+      arr_options = [0, 1]
+      
+      cur_row = row_options.sample
+      cur_col = col_options.sample
+      cur_arr = arr_options.sample
+      
+      player_type2 = possible_players[cur_row][cur_col][cur_arr]
+      
+      row_options = [0, 1, 2, 3, 4, 5, 6]
+      col_options = [0, 1, 2, 3, 4, 5, 6]
+      arr_options = [0, 1]
+      
+      cur_row = row_options.sample
+      cur_col = col_options.sample
+      cur_arr = arr_options.sample
+      
+      player_type3 = possible_players[cur_row][cur_col][cur_arr]
+      
+      busokaijoplege_metric_1 = BequestAntiCheat::CheatDetection.cette("#{player_type1}", "busokaijoplege")
+      busokaijoplege_metric_2 = BequestAntiCheat::CheatDetection.maisette("#{player_type2}", "busokaijoplege")
+      busokaijoplege_metric_3 = BequestAntiCheat::CheatDetection.sinon("#{player_type3}", "busokaijoplege")
+      
+      @busokaijoplege_total_metric = "#{busokaijoplege_metric_1} #{busokaijoplege_metric_2} #{busokaijoplege_metric_3}"
+    end
+
+    def self.ennemi_sukyan_metric
+      a = "cochon au homard"
+      b = "robusuta buta"
+      d = "ursinehomme"
+      e = "ursinefemme"
+      f = "ursinepiros"
+      g = "kumabatto"
+      h = "quantumcrufied"
+      
+    
+      possible_players = [
+        [[a, a], [a, b], [a, c], [a, d], [a, e], [a, f], [a, g], [a, h]],
+        [[b, a], [b, b], [b, c], [b, d], [b, e], [b, f], [b, g], [b, h]],
+        [[c, a], [c, b], [c, c], [c, d], [c, e], [c, f], [c, g], [c, h]],
+        [[d, a], [d, b], [d, c], [d, d], [d, e], [d, f], [d, g], [d, h]],
+        [[e, a], [e, b], [e, c], [e, d], [e, e], [e, f], [e, g], [e, h]],
+        [[f, a], [f, b], [f, c], [f, d], [f, e], [f, f], [f, g], [f, h]],
+        [[g, a], [g, b], [g, c], [g, d], [g, e], [g, f], [g, g], [g, h]],
+      ]
+    
+      row_options = [0, 1, 2, 3, 4, 5, 6]
+      col_options = [0, 1, 2, 3, 4, 5, 6]
+      arr_options = [0, 1]
+      
+      cur_row = row_options.sample
+      cur_col = col_options.sample
+      cur_arr = arr_options.sample
+      
+      player_type1 = possible_players[cur_row][cur_col][cur_arr]
+      
+      row_options = [0, 1, 2, 3, 4, 5, 6]
+      col_options = [0, 1, 2, 3, 4, 5, 6]
+      arr_options = [0, 1]
+      
+      cur_row = row_options.sample
+      cur_col = col_options.sample
+      cur_arr = arr_options.sample
+      
+      player_type2 = possible_players[cur_row][cur_col][cur_arr]
+      
+      row_options = [0, 1, 2, 3, 4, 5, 6]
+      col_options = [0, 1, 2, 3, 4, 5, 6]
+      arr_options = [0, 1]
+      
+      cur_row = row_options.sample
+      cur_col = col_options.sample
+      cur_arr = arr_options.sample
+      
+      player_type3 = possible_players[cur_row][cur_col][cur_arr]
+      
+      ennemi_sukyan_metric_1 = BequestAntiCheat::CheatDetection.cette("#{player_type1}", "ennemi sukyan")
+      ennemi_sukyan_metric_2 = BequestAntiCheat::CheatDetection.maisette("#{player_type2}", "ennemi sukyan")
+      ennemi_sukyan_metric_3 = BequestAntiCheat::CheatDetection.sinon("#{player_type3}", "ennemi sukyan")
+      
+      @ennemi_sukyan_total_metric = "#{ennemi_sukyan_metric_1} #{ennemi_sukyan_metric_2} #{ennemi_sukyan_metric_3}"
+    end
+
+    def self.appel_du_vide_metric
+      a = "cochon au homard"
+      b = "robusuta buta"
+      d = "ursinehomme"
+      e = "ursinefemme"
+      f = "ursinepiros"
+      g = "kumabatto"
+      h = "quantumcrufied"
+      
+    
+      possible_players = [
+        [[a, a], [a, b], [a, c], [a, d], [a, e], [a, f], [a, g], [a, h]],
+        [[b, a], [b, b], [b, c], [b, d], [b, e], [b, f], [b, g], [b, h]],
+        [[c, a], [c, b], [c, c], [c, d], [c, e], [c, f], [c, g], [c, h]],
+        [[d, a], [d, b], [d, c], [d, d], [d, e], [d, f], [d, g], [d, h]],
+        [[e, a], [e, b], [e, c], [e, d], [e, e], [e, f], [e, g], [e, h]],
+        [[f, a], [f, b], [f, c], [f, d], [f, e], [f, f], [f, g], [f, h]],
+        [[g, a], [g, b], [g, c], [g, d], [g, e], [g, f], [g, g], [g, h]],
+      ]
+    
+      row_options = [0, 1, 2, 3, 4, 5, 6]
+      col_options = [0, 1, 2, 3, 4, 5, 6]
+      arr_options = [0, 1]
+      
+      cur_row = row_options.sample
+      cur_col = col_options.sample
+      cur_arr = arr_options.sample
+      
+      player_type1 = possible_players[cur_row][cur_col][cur_arr]
+      
+      row_options = [0, 1, 2, 3, 4, 5, 6]
+      col_options = [0, 1, 2, 3, 4, 5, 6]
+      arr_options = [0, 1]
+      
+      cur_row = row_options.sample
+      cur_col = col_options.sample
+      cur_arr = arr_options.sample
+      
+      player_type2 = possible_players[cur_row][cur_col][cur_arr]
+      
+      row_options = [0, 1, 2, 3, 4, 5, 6]
+      col_options = [0, 1, 2, 3, 4, 5, 6]
+      arr_options = [0, 1]
+      
+      cur_row = row_options.sample
+      cur_col = col_options.sample
+      cur_arr = arr_options.sample
+      
+      player_type3 = possible_players[cur_row][cur_col][cur_arr]
+      
+      appel_du_vide_metric_1 = BequestAntiCheat::CheatDetection.cette("#{player_type1}", "appel du vide")
+      appel_du_vide_metric_2 = BequestAntiCheat::CheatDetection.maisette("#{player_type2}", "appel du vide")
+      appel_du_vide_metric_3 = BequestAntiCheat::CheatDetection.sinon("#{player_type3}", "appel du vide")
+      
+      @appel_du_vide_total_metric = "#{appel_du_vide_sukyan_metric_1} #{appel_du_vide_metric_2} #{appel_du_vide_metric_3}"
+    end
+    
+    def self.appel_du_vide_metric
+      a = "cochon au homard"
+      b = "robusuta buta"
+      d = "ursinehomme"
+      e = "ursinefemme"
+      f = "ursinepiros"
+      g = "kumabatto"
+      h = "quantumcrufied"
+      
+    
+      possible_players = [
+        [[a, a], [a, b], [a, c], [a, d], [a, e], [a, f], [a, g], [a, h]],
+        [[b, a], [b, b], [b, c], [b, d], [b, e], [b, f], [b, g], [b, h]],
+        [[c, a], [c, b], [c, c], [c, d], [c, e], [c, f], [c, g], [c, h]],
+        [[d, a], [d, b], [d, c], [d, d], [d, e], [d, f], [d, g], [d, h]],
+        [[e, a], [e, b], [e, c], [e, d], [e, e], [e, f], [e, g], [e, h]],
+        [[f, a], [f, b], [f, c], [f, d], [f, e], [f, f], [f, g], [f, h]],
+        [[g, a], [g, b], [g, c], [g, d], [g, e], [g, f], [g, g], [g, h]],
+      ]
+    
+      row_options = [0, 1, 2, 3, 4, 5, 6]
+      col_options = [0, 1, 2, 3, 4, 5, 6]
+      arr_options = [0, 1]
+      
+      cur_row = row_options.sample
+      cur_col = col_options.sample
+      cur_arr = arr_options.sample
+      
+      player_type1 = possible_players[cur_row][cur_col][cur_arr]
+      
+      row_options = [0, 1, 2, 3, 4, 5, 6]
+      col_options = [0, 1, 2, 3, 4, 5, 6]
+      arr_options = [0, 1]
+      
+      cur_row = row_options.sample
+      cur_col = col_options.sample
+      cur_arr = arr_options.sample
+      
+      player_type2 = possible_players[cur_row][cur_col][cur_arr]
+      
+      row_options = [0, 1, 2, 3, 4, 5, 6]
+      col_options = [0, 1, 2, 3, 4, 5, 6]
+      arr_options = [0, 1]
+      
+      cur_row = row_options.sample
+      cur_col = col_options.sample
+      cur_arr = arr_options.sample
+      
+      player_type3 = possible_players[cur_row][cur_col][cur_arr]
+      
+      appel_du_vide_metric_1 = BequestAntiCheat::CheatDetection.cette("#{player_type1}", "appel du vide")
+      appel_du_vide_metric_2 = BequestAntiCheat::CheatDetection.maisette("#{player_type2}", "appel du vide")
+      appel_du_vide_metric_3 = BequestAntiCheat::CheatDetection.sinon("#{player_type3}", "appel du vide")
+      
+      @appel_du_vide_total_metric = "#{appel_du_vide_sukyan_metric_1} #{appel_du_vide_metric_2} #{appel_du_vide_metric_3}"
+    end
+
+    def self.morsurenekku_metric
+      a = "cochon au homard"
+      b = "robusuta buta"
+      d = "ursinehomme"
+      e = "ursinefemme"
+      f = "ursinepiros"
+      g = "kumabatto"
+      h = "quantumcrufied"
+      
+    
+      possible_players = [
+        [[a, a], [a, b], [a, c], [a, d], [a, e], [a, f], [a, g], [a, h]],
+        [[b, a], [b, b], [b, c], [b, d], [b, e], [b, f], [b, g], [b, h]],
+        [[c, a], [c, b], [c, c], [c, d], [c, e], [c, f], [c, g], [c, h]],
+        [[d, a], [d, b], [d, c], [d, d], [d, e], [d, f], [d, g], [d, h]],
+        [[e, a], [e, b], [e, c], [e, d], [e, e], [e, f], [e, g], [e, h]],
+        [[f, a], [f, b], [f, c], [f, d], [f, e], [f, f], [f, g], [f, h]],
+        [[g, a], [g, b], [g, c], [g, d], [g, e], [g, f], [g, g], [g, h]],
+      ]
+    
+      row_options = [0, 1, 2, 3, 4, 5, 6]
+      col_options = [0, 1, 2, 3, 4, 5, 6]
+      arr_options = [0, 1]
+      
+      cur_row = row_options.sample
+      cur_col = col_options.sample
+      cur_arr = arr_options.sample
+      
+      player_type1 = possible_players[cur_row][cur_col][cur_arr]
+      
+      row_options = [0, 1, 2, 3, 4, 5, 6]
+      col_options = [0, 1, 2, 3, 4, 5, 6]
+      arr_options = [0, 1]
+      
+      cur_row = row_options.sample
+      cur_col = col_options.sample
+      cur_arr = arr_options.sample
+      
+      player_type2 = possible_players[cur_row][cur_col][cur_arr]
+      
+      row_options = [0, 1, 2, 3, 4, 5, 6]
+      col_options = [0, 1, 2, 3, 4, 5, 6]
+      arr_options = [0, 1]
+      
+      cur_row = row_options.sample
+      cur_col = col_options.sample
+      cur_arr = arr_options.sample
+      
+      player_type3 = possible_players[cur_row][cur_col][cur_arr]
+      
+      morsurenekku_metric_1 = BequestAntiCheat::CheatDetection.cette("#{player_type1}", "morsurenekku")
+      morsurenekku_metric_2 = BequestAntiCheat::CheatDetection.maisette("#{player_type2}", "morsurenekku")
+      morsurenekku_metric_3 = BequestAntiCheat::CheatDetection.sinon("#{player_type3}", "morsurenekku")
+      
+      @morsurenekku_total_metric = "#{morsurenekku_sukyan_metric_1} #{morsurenekku_metric_2} #{morsurenekku_metric_3}"
+    end
+    
+    def self.koreboreshon_metric
+      a = "cochon au homard"
+      b = "robusuta buta"
+      d = "ursinehomme"
+      e = "ursinefemme"
+      f = "ursinepiros"
+      g = "kumabatto"
+      h = "quantumcrufied"
+      
+    
+      possible_players = [
+        [[a, a], [a, b], [a, c], [a, d], [a, e], [a, f], [a, g], [a, h]],
+        [[b, a], [b, b], [b, c], [b, d], [b, e], [b, f], [b, g], [b, h]],
+        [[c, a], [c, b], [c, c], [c, d], [c, e], [c, f], [c, g], [c, h]],
+        [[d, a], [d, b], [d, c], [d, d], [d, e], [d, f], [d, g], [d, h]],
+        [[e, a], [e, b], [e, c], [e, d], [e, e], [e, f], [e, g], [e, h]],
+        [[f, a], [f, b], [f, c], [f, d], [f, e], [f, f], [f, g], [f, h]],
+        [[g, a], [g, b], [g, c], [g, d], [g, e], [g, f], [g, g], [g, h]],
+      ]
+    
+      row_options = [0, 1, 2, 3, 4, 5, 6]
+      col_options = [0, 1, 2, 3, 4, 5, 6]
+      arr_options = [0, 1]
+      
+      cur_row = row_options.sample
+      cur_col = col_options.sample
+      cur_arr = arr_options.sample
+      
+      player_type1 = possible_players[cur_row][cur_col][cur_arr]
+      
+      row_options = [0, 1, 2, 3, 4, 5, 6]
+      col_options = [0, 1, 2, 3, 4, 5, 6]
+      arr_options = [0, 1]
+      
+      cur_row = row_options.sample
+      cur_col = col_options.sample
+      cur_arr = arr_options.sample
+      
+      player_type2 = possible_players[cur_row][cur_col][cur_arr]
+      
+      row_options = [0, 1, 2, 3, 4, 5, 6]
+      col_options = [0, 1, 2, 3, 4, 5, 6]
+      arr_options = [0, 1]
+      
+      cur_row = row_options.sample
+      cur_col = col_options.sample
+      cur_arr = arr_options.sample
+      
+      player_type3 = possible_players[cur_row][cur_col][cur_arr]
+      
+      koreboreshon_metric_1 = BequestAntiCheat::CheatDetection.cette("#{player_type1}",    "koreboreshon")
+      koreboreshon_metric_2 = BequestAntiCheat::CheatDetection.maisette("#{player_type2}", "koreboreshon")
+      koreboreshon_metric_3 = BequestAntiCheat::CheatDetection.sinon("#{player_type3}",    "koreboreshon")
+      
+      @koreboreshon_total_metric = "#{morsurenekku_sukyan_metric_1} #{morsurenekku_metric_2} #{morsurenekku_metric_3}"
+    end
    
     def self.battle_mechanics
       require "SelfModifiedDecisionTree"
@@ -744,6 +1139,72 @@ module BequestAntiCheat
         [0.7495,    " > Anos Koreboreshonos il y a grande."], # Indirect collaboration, there is lots.
         [0.9990, " > Anos Koreboreshonos il y a un limite."], # Indirect collaboration, there is a limit.
       ]
+      
+      dec_tree = DecisionTree::ID3Tree.new(attributes, training, 1, :continuous),
+                 DecisionTree::ID3Tree.new(attributes, training, 1, :continuous),
+		 DecisionTree::ID3Tree.new(attributes, training, 1, :continuous),
+	         DecisionTree::ID3Tree.new(attributes, training, 1, :continuous),
+		 DecisionTree::ID3Tree.new(attributes, training, 1, :continuous),
+		 DecisionTree::ID3Tree.new(attributes, training, 1, :continuous),
+		 DecisionTree::ID3Tree.new(attributes, training, 1, :continuous),
+		 DecisionTree::ID3Tree.new(attributes, training, 1, :continuous),
+		 DecisionTree::ID3Tree.new(attributes, training, 1, :continuous),
+		 DecisionTree::ID3Tree.new(attributes, training, 1, :continuous),
+		 DecisionTree::ID3Tree.new(attributes, training, 1, :continuous),
+		 DecisionTree::ID3Tree.new(attributes, training, 1, :continuous),
+		 DecisionTree::ID3Tree.new(attributes, training, 1, :continuous),
+		 DecisionTree::ID3Tree.new(attributes, training, 1, :continuous)
+
+      current_dectree01 =  dec_tree[0]; current_dectree01.train
+      current_dectree02 =  dec_tree[1]; current_dectree02.train
+      current_dectree03 =  dec_tree[3]; current_dectree03.train
+      current_dectree04 =  dec_tree[4]; current_dectree04.train
+      current_dectree05 =  dec_tree[5]; current_dectree05.train
+      current_dectree06 =  dec_tree[6]; current_dectree06.train
+      current_dectree07 =  dec_tree[7]; current_dectree07.train
+      current_dectree08 =  dec_tree[8]; current_dectree08.train
+      current_dectree09 =  dec_tree[9]; current_dectree09.train
+      current_dectree10 = dec_tree[10]; current_dectree10.train
+      current_dectree11 = dec_tree[11]; current_dectree11.train
+      current_dectree12 = dec_tree[12]; current_dectree12.train
+      current_dectree13 = dec_tree[13]; current_dectree13.train
+      current_dectree14 = dec_tree[14]; current_dectree14.train
+        
+      evaluate_matraque        = [matraque_classification,                 " > Un matraque il y a moyen."] # 01
+      evaluate_sekupu          = [sekupu_classification,                  " > Anos sekupos il y a moyen."] # 02
+      evaluate_etrangle        = [etrangle_classification,                 " > Un etrangle il y a moyen."] # 03
+      evaluate_raitosalle      = [raitosalle_classification,        " > Deso raitosallos il ya un moyen."] # 04
+      evaluate_viola           = [viola_classification,               " > Un viola musette il y a moyen."] # 05
+      evaluate_coupe_de_grace  = [coupe_de_grace_classification,     " > Un coupe de grace il y a moyen."] # 06
+      evaluate_flaner          = [flaner_classification,                     " > Un flaner il y a moyen."] # 07
+      evaluate_buisaut         = [buisaut_classification,                   " > Un buisaut il y a moyen."] # 08
+      evaluate_entreintiwadano = [entreintiwadano_classification, " > Deso entreintiwadano il y a moyen."] # 09
+      evaluate_entreintatana   = [entreintatana_classification,       " > Ta entreintatana il y a moyen."] # 10
+      evaluate_busokaijoplege  = [busokaijoplege_classification,     " > Te Busokaijoplege il y a moyen."] # 11
+      evaluate_ennemi_sukyan   = [ennemi_sukyan_classification,     " > Anos Ennemi Sukyan il y a moyen."] # 12
+      evaluate_appel_du_vide   = [appel_du_vide_classification,       " > Un appel du vide il y a moyen."] # 13
+      evaluate_mosurenekku     = [morsurenekku_classification,         " > Te Morsurenekku il y a moyen."] # 14
+      evaluate_koreboreshon    = [koreboreshon_classification,     " > Anos Koreboreshonos il y a moyen."] # 15
+
+      decision01 = dec_tree.predict(evaluate_matraque)
+      decision02 = dec_tree.predict(evaluate_sekupu)
+      decision03 = dec_tree.predict(evaluate_raitosalle)
+      decision04 = dec_tree.predict(evaluate_viola)
+      decision05 = dec_tree.predict(evaluate_coupe_de_grace)
+      decision06 = dec_tree.predict(evaluate_flaner)
+      decision07 = dec_tree.predict(evaluate_buisaut)
+      decision08 = dec_tree.predict(evaluate_etreintiwadano)
+      decision09 = dec_tree.predict(evaluate_etreintatana)
+      decision10 = dec_tree.predict(evaluate_busokaijoplege)
+      decision11 = dec_tree.predict(evaluate_ennemi_sukya)
+      decision12 = dec_tree.predict(evaluate_appel_du_vide)
+      decision13 = dec_tree.predict(evaluate_mosurenukku)
+      decision14 = dec_tree.predict(evaluate_koreboreshon)
+
+      puts "Matraque: #{decision01}\nSekupu: #{decision02}\nRaitosalle: #{decsion03}\nViola: #{decision04}\nCoupe De Grace: #{decision05}\nFlaner: #{decision06}\nBuisaut: #{decision07}\nEtreintiwadano: #{decsion08}\n Etreintatana: #{decision09}\nBusokaijoplege: #{decision10}\nEnnemi Sukya: #{decision11}\nAppel Du Vide: #{decision12}\nMosurenukku: #{decision13}\nKoreboreshon: #{decision14}"
     end
+  end
+
+  class AnalyzePlayingCards
   end
 end
