@@ -34,6 +34,39 @@ You can find development of the constructed language here:
 [Middle Ahuzacos](https://bequestdecendresstudios.github.io/BequestAntiCheat/MiddleFraponic/)
 [Modern Ahuzacos](https://bequestdecendresstudios.github.io/BequestAntiCheat/ModernFraponic/)
 
+## Specific Grammar Rules
+~~~
+1. Word classes
+  a. French words used the basic French word classes: Le for masculine nouns, La for feminine nouns, and Les for nuetral or plural nouns. These use the secondary classes of un, une, and des.
+  b. Loan words from Japanese use pseudo-classes do to Japanese not having native word classes. These are Anu for masculine nouns, Ana for feminine nouns, and Anos for nuetral or plural nouns. These use the secondary pseudo-word classes of tu, ta, and tos. Secondary word classes are tun, tan, and deso.
+  c. Loan words from German use the German word class system: Der for masculine nouns, Die for feminine nouns, and Das for nuetral or plural nouns.
+  d. Hybrid portmanteau use a French prefix and japanese suffix. These use the secondary pseudo-word classes of Lanu, Lana, and Lanos. Secondary word classes are tun, tan, and deso. For example Surfsuna.
+
+2. Nouns are person, places, or things.
+  a. French nouns use the word classes from Francais based on their masculine, feminine, and neutral forms.
+  b. Japanese nouns use the pseudo word classes from Nihongo based on their masculine, feminine, and neutral forms. These are mainly use for Japanese language sentences.
+  c. German nouns use the word classes from German, Swiss, Dutch, and Alsatian based on their masculine, feminine, and neutral forms.
+  d. Hybrid port manteaus are a special noun variety like Surfsuna that may later drift into verbs and thus no word classes are used.
+
+3. Adjectives
+
+  a. colors - Unless specified otherwise, color adjectives use the French color name system, except in chemistry which uses dryness and ph value chart.
+  b. shapes - Unless specified otherwise, shape adjectives use the French shape name system.
+
+4. Pronouns - Je is I, Vous is You all, Tu is You, Nous is We, Il is He, Ils is Him, Elle is She, Elles os Her.
+
+5. Verbs - Default to French verbs except when converting Japanese into Romaji. Hybrid portmanteau use a French prefix and japanese suffix. the verb forms do not use word classes.
+~~~
+
+## Pronunciation Guide
+~~~
+D and R merge together: Replace D with R or vice versa.
+F and S merge together: Replace F with S or vice versa.
+H and L are the same character and silent: H and L are not pronounced.
+M is pronounced more like a W: Replace M with W.
+X is pronounced like a soft ch: Replace X with ch.
+~~~
+
 ## Monitored Categories
 ~~~ruby
 :quelque_matraque,        :mildou_matraque,        :moyen_matraque,        :grande_matraque,               :limite_matraque), # Bludgeoning
