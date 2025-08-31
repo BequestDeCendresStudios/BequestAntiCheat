@@ -1,5 +1,5 @@
 # Specific Cards
-This are for specific cards for gameplay elements.
+This are for specific cards for gameplay elements. This was created as alternative to the Bourgeois Tarot.
 
 ## Primary Deck
 ### Ten Crashed Pilots
