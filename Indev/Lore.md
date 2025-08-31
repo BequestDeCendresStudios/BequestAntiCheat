@@ -18,3 +18,41 @@ Town with duplicate body is abandoned, leaving duplicate unattended. -- prisoner
 
 Generally such storytellers are those on their way out, or constantly bedridden. Whom seek to warn society about the dark preist, the stillborn baby, the executioner of karma, and the prisoner in black who can sometimes be found in abandoned town, usually as a result of disaster like a collapsed mineshaff. Often you will also have anti-thesis to the main bad omens: preist in white, the infant, the warden in white, among other assistance.
 The dark preist is nuetralized by the preist in white, the stillborn is nuetralized by duplicate infant, the warden can free the prisoner in black.
+
+## Lore Specific Terms
+Le Inhumation De Le Payee De Anos Hon Teddos -
+Shinshusci                                   - Scientific mysticism
+Yokanozen                                    - Before leisure; Four Steps
+violamatraque                                - A special hammer that can be played like a viola.
+Shikensujetto                                - A type of test subject.
+Les Kumabatto De Les Ghoules                 - The bear-bat of ghouls; equivalent to the vampire for werebears.
+Raitosalle De Getawaltz                      - A special type of ghost that dances like disembodied flashlights. 
+Kyabin Yokanozen                             - Cabins tied to haunted locations that concentrate Yokai.
+Ceriderinshos                                - Hospitals and clinics that become yokanozen after strange events. Generally this places differ from standard Japanese folklore, in that there is a large number of strange apparitions that appear in certain haunted areas, blurring the line between Japanese Horror and Western Ghost Stories.
+Seigyo Des Dommmages                         - The general term for damage control; generally used in context with fixing leaks in battleships and other vessels. But has also been used to describe companies massively rewriting a canon or doing other conceptual work that massively divides the fan base.
+Sanitemetoruho                               - A measurement based on your present mental fragility compared and contrasting with the trust level other party members and love interest have in you as the protagonist. This allows for more dynamic levels of bad endings rather than one standard Survival Horror ending.
+Sakabekige                                   - To express ones love so deeply, that you'd rather end it all by writing "I Love You" on a wall. Such places are generally places closest to where the lovers first met, with games that revolve around them being about the depression of one of "Sangkabegaki" creativity.
+Sombreheiwa                                  - A run where you meet game play goals by relieving enemies burden, with the "sombre" stemming from why they lashed out.
+Anos Pluiebutos                              - Rain boots
+Anos Mibojinjos                              - An automated crossbow designed for executing murderers by beheading them. This is done behind closed doors in dead up blocks in prisons. This came about from needing a fast way to get rid of political prisoners, but with the effiency of guillotining them.
+Katana No Chaos                              - Katana that brings Chaos.
+Cleve De Justice                             - Cleaver that brings justice; specific executioner's ax.
+Annuaire De Lune                             - Lunar Calender
+
+Matraque   - Bludgeon
+Sukoppu    - Scoop
+Shimeru    - Strangle
+Raitosalle - Flashlight
+
+## Anomalous Words
+Mahe - Full Sail; Gift Of God; Derived from Matthew.
+
+## MAGICAL ELEMENTS AND THEIR COLORS
+Flouteur         - water, sunami
+Tempeste De Suna - sand, sandstorm
+Dokubutsu        - moss, poison
+Oshoko           - stone, corruption
+Shi              - death, mortality
+Vie              - life, restoration
+Yunion           - unity; binding; liante
+scroll           - roulleau
