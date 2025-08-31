@@ -20,8 +20,6 @@
 
 # frozen_string_literal: true
 
-require_relative "BequestAntiCheat/version"
-
 module BequestAntiCheat
   class Error < StandardError; end
   
