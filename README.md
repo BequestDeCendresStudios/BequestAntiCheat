@@ -25,6 +25,8 @@ This software shall not be leased for profit for those whom wish to use ot for p
 Exceptions are not provided for AA or AAA companies using LLMs, and usage of this software shall be revoked for non-compliance with this agreement. All intellectual property is exclusive to the one implementing changes on behalf of said companies.
 
 ## Constructed Language Context
+In the context of my games, the first novels were set in an alternative United States where France controlled the East Coast US, and Japan the East Coast such as California, Oregon, and Washington. A dialect of Francais eventually developed in bordering states between outposts, that were effectively the United States version of Alsace-Lorraine during the Franco-Prussian Wars. This had a distinct word order from Francais, being OSV rather than SVO. The novel Uploaded Fairy is set before this civil war context.
+
 You can find development of the constructed language here:
 
 [Prototype](https://bequestdecendresstudios.github.io/BequestAntiCheat/Proto/)
