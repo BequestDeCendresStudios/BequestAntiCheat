@@ -18,6 +18,10 @@
 
 # Exceptions are not provided for AA or AAA companies using LLMs, and usage of this software shall be revoked for non-compliance with this agreement. All intellectual property is exclusive to the one implementing changes on behalf of said companies.
 
+# frozen_string_literal: true
+
+require_relative "BequestAntiCheat/version"
+
 module BequestAntiCheat
   class Error < StandardError; end
   
@@ -1223,8 +1227,176 @@ module BequestAntiCheat
 
       puts "Matraque: #{decision01}\nSekupu: #{decision02}\nRaitosalle: #{decsion03}\nViola: #{decision04}\nCoupe De Grace: #{decision05}\nFlaner: #{decision06}\nBuisaut: #{decision07}\nEtreintiwadano: #{decsion08}\n Etreintatana: #{decision09}\nBusokaijoplege: #{decision10}\nEnnemi Sukya: #{decision11}\nAppel Du Vide: #{decision12}\nMosurenukku: #{decision13}\nKoreboreshon: #{decision14}"
     end
+    
+    def self.evaluate_each_gameplay
+      a = @matraque_total_metric               # Detects how often a player bludgeons zombie.
+      b = @sekupu_total_metric                 # Detects how often a player scoops up contamination.
+      c = @etrangle_total_metric               # Detects how often a player stranges a zombie.
+      d = @raitosalle_total_metric             # Detects how often a player uses a flashlight.
+      e = @viola_total_metric                  # Detects how often a player abruptly ends an NPC conversation.
+      f = @coupe_de_grace_total_metric         # Detects how often a player does a finishing blow on a monster.
+      g = @flaner_total_metric                 # Detects how often a player is able to safely sneak without issues..
+      h = @buisaut_total_metric                # Detects how often a player safely hops from boui to boui.
+      i = @entreintiwadano_total_metric        # Detects how often a player safely climbs off a ledge.
+      j = @entreintatana_total_metric          # Detects how often a player destroys an important aspect of an NPCS estate.
+      k = @busokaijoplege_total_metric         # Detects how often a player disarms traps.
+      l = @ennemi_sukyan_total_metric          # Detects how often a player performs an enemy scan of metrics.
+      m = @appel_du_vide_total_metric          # Detects how often a player predicts mistakes before they happen in gameplay.
+      n = @morsurenekku_total_metric           # Detects how often the player trades their own blood to safe a comrade.
+      o = @koreboreshon_total_metric           # Detects how often collaboration is done between players that don't interact directly.
+      
+      # Evaluates proportion of legitimate players and malicious players for Matraque functionality.
+      @matraque_total_metric = 11.to_f
+
+      ## Evaluates proportion of legitimate players and malicious users.
+      a2 = 1 / @matraque_total_metric  # Amount of legitimate users.
+      a1 = 1 - a2                      # Amount of malicious users
+      a3 = a1 * a2 * a2                # Amount of malicious users that are bots.
+      a4 = a3 * @matraque_total_metric # Malicious cloners
+      a5 = @matraque_total_metric.to_i
+
+      malicious_scraper = @matraque_total_metric * a4
+
+      print "Legitimate Players: #{a2} Malicious Players: #{a1} Malicious Bots: #{a3} Total Malicious Cloners: #{malicious_scraper} for Matraque"
+      
+      # Evaluates proportion of legitimate players and malicious players for Sekupu functionality.
+      @sekupu_total_metric = 11.to_f
+
+      ## Evaluates proportion of legitimate players and malicious users.
+      a2 = 1 / @sekupu_total_metric   # Amount of legitimate users.
+      a1 = 1 - a2                     # Amount of malicious users
+      a3 = a1 * a2 * a2               # Amount of malicious users that are bots.
+      a4 = a3 * @sekupu_total_metric  # Malicious cloners
+      a5 = @sekupu_total_metric.to_i
+
+      malicious_scraper = @sekupu_total_metric * a4
+
+      print "Legitimate Players: #{a2} Malicious Players: #{a1} Malicious Bots: #{a3} Total Malicious Cloners: #{malicious_scraper} for Sekupu"
+      
+      # Evaluates proportion of legitimate players and malicious players for Etrangle functionality.
+      @etrangle_total_metric = 11.to_f
+
+      ## Evaluates proportion of legitimate players and malicious users.
+      a2 = 1 / @etrangle_total_metric  # Amount of legitimate users.
+      a1 = 1 - a2                      # Amount of malicious users
+      a3 = a1 * a2 * a2                # Amount of malicious users that are bots.
+      a4 = a3 * @etrangle_total_metric # Malicious cloners
+      a5 = @etrangle_total_metric.to_i
+
+      malicious_scraper = @etrangle_total_metric * a4
+
+      print "Legitimate Players: #{a2} Malicious Players: #{a1} Malicious Bots: #{a3} Total Malicious Cloners: #{malicious_scraper} for Etrangle"
+
+      # Evaluates proportion of legitimate players and malicious players for Raitosalle functionality.
+      @raitosalle_total_metric = 11.to_f
+
+      ## Evaluates proportion of legitimate players and malicious users.
+      a2 = 1 / @raitosalle_total_metric  # Amount of legitimate users.
+      a1 = 1 - a2                        # Amount of malicious users
+      a3 = a1 * a2 * a2                  # Amount of malicious users that are bots.
+      a4 = a3 * @raitosalle_total_metric # Malicious cloners
+      a5 = @raitosalle_total_metric.to_i
+
+      malicious_scraper = @raitosalle_total_metric * a4
+
+      print "Legitimate Players: #{a2} Malicious Players: #{a1} Malicious Bots: #{a3} Total Malicious Cloners: #{malicious_scraper} for Raitosalle"
+
+      # Evaluates proportion of legitimate players and malicious players for Viola functionality.
+      @viola_total_metric = 11.to_f
+
+      ## Evaluates proportion of legitimate players and malicious users.
+      a2 = 1 / @viola_total_metric  # Amount of legitimate users.
+      a1 = 1 - a2                   # Amount of malicious users
+      a3 = a1 * a2 * a2             # Amount of malicious users that are bots.
+      a4 = a3 * @viola_total_metric # Malicious cloners
+      a5 = @viola_total_metric.to_i
+
+      malicious_scraper = @viola_total_metric * a4
+
+      print "Legitimate Players: #{a2} Malicious Players: #{a1} Malicious Bots: #{a3} Total Malicious Cloners: #{malicious_scraper} for Raitosalle"
+
+      # Evaluates proportion of legitimate players and malicious players for Raitosalle functionality.
+      @raitosalle_total_metric = 11.to_f
+
+      ## Evaluates proportion of legitimate players and malicious users.
+      a2 = 1 / @raitosalle_total_metric  # Amount of legitimate users.
+      a1 = 1 - a2                        # Amount of malicious users
+      a3 = a1 * a2 * a2                  # Amount of malicious users that are bots.
+      a4 = a3 * @raitosalle_total_metric # Malicious cloners
+      a5 = @raitosalle_total_metric.to_i
+
+      malicious_scraper = @raitosalle_total_metric * a4
+
+      print "Legitimate Players: #{a2} Malicious Players: #{a1} Malicious Bots: #{a3} Total Malicious Cloners: #{malicious_scraper} for Raitosalle"
+
+      # Evaluates proportion of legitimate players and malicious players for Buisaut functionality.
+      @buisaut_total_metric = 11.to_f
+ 
+      ## Evaluates proportion of legitimate players and malicious users.
+      a2 = 1 / @buisaut_total_metric  # Amount of legitimate users.
+      a1 = 1 - a2                    # Amount of malicious users
+      a3 = a1 * a2 * a2              # Amount of malicious users that are bots.
+      a4 = a3 * @buisaut_total_metric # Malicious cloners
+      a5 = @buisaut_total_metric.to_i
+
+      malicious_scraper = @buisaut_total_metric * a4
+
+      print "Legitimate Players: #{a2} Malicious Players: #{a1} Malicious Bots: #{a3} Total Malicious Cloners: #{malicious_scraper} for Buisaut"
+      
+      # Evaluates proportion of legitimate players and malicious players for Raitosalle functionality.
+      @entreintiwadano_total_metric = 11.to_f
+ 
+      ## Evaluates proportion of legitimate players and malicious users.
+      a2 = 1 / @entreintiwadano_total_metric  # Amount of legitimate users.
+      a1 = 1 - a2                    # Amount of malicious users
+      a3 = a1 * a2 * a2              # Amount of malicious users that are bots.
+      a4 = a3 * @entreintiwadano_total_metric # Malicious cloners
+      a5 = @entreintiwadano_total_metric.to_i
+
+      malicious_scraper = @entreintiwadano_total_metric * a4
+
+      print "Legitimate Players: #{a2} Malicious Players: #{a1} Malicious Bots: #{a3} Total Malicious Cloners: #{malicious_scraper} for Raitosalle"
+      
+      # Evaluates proportion of legitimate players and malicious players for Raitosalle functionality.
+      @entreintatana_total_metric = 11.to_f
+ 
+      ## Evaluates proportion of legitimate players and malicious users.
+      a2 = 1 / @entreintatana_total_metric  # Amount of legitimate users.
+      a1 = 1 - a2                    # Amount of malicious users
+      a3 = a1 * a2 * a2              # Amount of malicious users that are bots.
+      a4 = a3 * @entreintatana_total_metric # Malicious cloners
+      a5 = @entreintatana_total_metric.to_i
+
+      malicious_scraper = @entreintatana_total_metric * a4
+
+      print "Legitimate Players: #{a2} Malicious Players: #{a1} Malicious Bots: #{a3} Total Malicious Cloners: #{malicious_scraper} for Raitosalle"
+    end
   end
 
   class AnalyzePlayingCards
+    def self.card_mechanics
+      require "SelfModifiedDecisionTree"
+      
+      card_mechanics = RevisedBayes(:anos_eos_mahos_des,  :anos_eos_mahos_tres, :anos_eos_mahos_quatre,
+                                    :anos_eos_mahos_cinq, :anos_eos_mahos_sept, :anos_eos_mahos_huit,
+                                    :anos_eos_mahos_neuf, :anos_eos_mahos_dix,  :anos_eos_mahos_jakku,
+                                    :anos_eos_mahos_kuin, :anos_eos_mahos_esu),
+                       RevisedBayes(),
+                       RevisedBayes(),
+                       RevisedBayes(),
+                       RevisedBayes(),
+                       RevisedBayes(),
+                       RevisedBayes(),
+                       RevisedBayes(),
+      
+      scroll_of_air         = card_mechanics[0]
+      scroll_of_electricity = card_mechanics[1]
+      scroll_of_heaven      = card_mechanics[2]
+      scroll_of_poison      = card_mechanics[3]
+      scroll_of_stone       = card_mechanics[4]
+      scroll_of_death       = card_mechanics[5]
+      scroll_of_divinity    = card_mechanics[6]
+      scroll_of_binding     = card_mechanics[7]
+    end
   end
 end
