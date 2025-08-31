@@ -27,9 +27,10 @@ Exceptions are not provided for AA or AAA companies using LLMs, and usage of thi
 ## Constructed Language Context
 You can find development of the constructed language here:
 
-[]()
-[]()
-[]()
+[Prototype](https://bequestdecendresstudios.github.io/BequestAntiCheat/Proto/)
+[Early Ahuzacos](https://bequestdecendresstudios.github.io/BequestAntiCheat/EarlyFraponic)
+[Middle Ahuzacos](https://bequestdecendresstudios.github.io/BequestAntiCheat/MiddleFraponic/)
+[Modern Ahuzacos](https://bequestdecendresstudios.github.io/BequestAntiCheat/ModernFraponic/)
 
 ## Monitored Categories
 ~~~ruby
