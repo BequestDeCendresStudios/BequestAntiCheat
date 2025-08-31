@@ -86,3 +86,10 @@ Shi              - death, mortality<br />
 Vie              - life, restoration<br />
 Yunion           - unity; binding; liante<br />
 scroll           - roulleau<br />
+
+## Maritime Terminology
+Buibrissant                           - [ Buibrissant ] - Boui breakage; can also be used as a verb for hopping from boui to boui.<br />
+Benificaire De Anos Manshonos         - [ Benidemanshonos ] - One who benefits from the mansion's estate.<br />
+Reunion No Kaibo                      - [ Reukaibos ] - Reunion during an autopsy.<br />
+Heddo No Panier                       - [ Edopanos ] - Basket for severed heads from a guillotine.<br />
+Murasaki No Kutsu, Le porteur de pall - [ Le Pallport De Anos Murakutsos ] - Abbrev. Panamurakutso.<br />
