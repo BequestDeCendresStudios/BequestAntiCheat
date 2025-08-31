@@ -24,6 +24,13 @@ This software shall not be leased for profit for those whom wish to use ot for p
 
 Exceptions are not provided for AA or AAA companies using LLMs, and usage of this software shall be revoked for non-compliance with this agreement. All intellectual property is exclusive to the one implementing changes on behalf of said companies.
 
+## Constructed Language Context
+You can find development of the constructed language here:
+
+[]()
+[]()
+[]()
+
 ## Monitored Categories
 ~~~ruby
 :quelque_matraque,        :mildou_matraque,        :moyen_matraque,        :grande_matraque,               :limite_matraque), # Bludgeoning
